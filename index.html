@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium Invitation</title>
+    <link rel="stylesheet" href="/asset/css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Rochester&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap");
+    </style>
+  </head>
+  <body>
+    <main class="w-full grid grid-cols-12">
+      <!-- cover invitation -->
+      <div
+        class="w-[100vw] h-[100vh] px-10 fixed bg-[#423740] bg-[url('/asset/couple.jpeg')] bg-no-repeat bg-center bg-cover flex justify-center items-center z-50 hidden"
+        id="cover-invitation"
+      >
+        <div class="rounded-md relative">
+          <div
+            class="absolute w-full h-full flex flex-col justify-center items-center"
+          >
+            <h3
+              class="font-semibold text-xl md:text-3xl font-['Playfair+Display'] text-[#d7c1a0] mb-2 md:mb-10"
+              data-aos="fade-up"
+            >
+              Wedding Invitation
+            </h3>
+            <div
+              class="cover-text text-center text-2xl md:text-4xl mt-2 md:mt-10 font-['Tangerine'] text-[#d7c1a0] font-bold"
+            >
+              <h1 class="" data-aos="fade-in">Anhar Muchlis</h1>
+              <p data-aos="fade-in">&</p>
+              <h1 class="" data-aos="fade-in">Deana</h1>
+            </div>
+
+            <p
+              class="font-['Playfair+Display'] text-sm md:text-lg mb-5 md:mb-10 md:mt-2 text-[#d7c1a0]"
+              data-aos="fade-up"
+            >
+              10 January 2024
+            </p>
+            <button
+              id="open-invitation"
+              data-aos="fade-up"
+              class="px-8 py-2 text-sm rounded-full hover:border-[#423740] border border-[#d7c1a0] hover:text-[#423740] hover:bg-[#d7c1a0] font-semibold duration-500 hover:scale-105 bg-[#423740] text-[#d7c1a0] font-['Playfair Display']"
+            >
+              Open Invitation
+            </button>
+          </div>
+          <img
+            src="/asset/img/bg-cover.png"
+            class="h-[80%] object-contain rounded-md"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- end cover invitation -->
+
+      <!-- main section -->
+
+      <!-- left section -->
+      <div class="hidden lg:block lg:col-span-8 h-[100vh] w-full sticky top-0">
+        <div
+          class="w-full h-full bg-[url('/asset/bg.jpeg')] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center p-20 left-side relative overflow-hidden"
+          style="
+            background-image: linear-gradient(
+                rgba(40, 42, 57, 0.7),
+                rgba(40, 42, 57, 0.7)
+              ),
+              url('/asset/bg.jpeg');
+          "
+        >
+          <div class="absolute -right-32 -top-32 w-96">
+            <img
+              src="/asset/frame/flower-white.png"
+              class="-scale-y-100 -scale-x-100"
+              alt=""
+            />
+          </div>
+          <div class="absolute -left-32 -top-32 w-96">
+            <img
+              src="/asset/frame/flower-white.png"
+              class="-scale-y-100"
+              alt=""
+            />
+          </div>
+          <div class="absolute -right-32 -bottom-32 w-96">
+            <img src="/asset/frame/flower-white.png" alt="" />
+          </div>
+          <div class="absolute -left-32 -bottom-32 w-96">
+            <img
+              src="/asset/frame/flower-white.png"
+              class="-scale-x-100"
+              alt=""
+            />
+          </div>
+          <div
+            class="box-couple w-[45%] relative flex justify-center items-center flex-col h-full rounded-t-full bg-[#282A39] border-8 border-[#D4C8A9] mx-auto mb-10"
+            style="
+              box-shadow: inset 10px 10px 18px rgba(0, 0, 0, 0.5),
+                inset 0 -4px 6px rgba(0, 0, 0, 0.1);
+            "
+          >
+            <div class="absolute top-0 left-0">
+              <img src="/asset/frame/little-flower.png" class="w-32" alt="" />
+            </div>
+            <div class="text-header text-center">
+              <p
+                class="font-['Futura Book font'] text-[#D4C8A9] mx-auto text-center px-8 mt-10"
+              >
+                bersama keluarga besar, anda diundang untuk datang ke acara
+                pernikahan
+              </p>
+
+              <div class="my-3 mt-20">
+                <h1
+                  class="text-center font-['Baskervville'] text-[#D4C8A9] font-bold text-5xl"
+                >
+                  Cahya Aditya
+                </h1>
+                <h1
+                  class="text-center font-['Baskervville'] text-[#D4C8A9] font-bold text-4xl my-2"
+                >
+                  &
+                </h1>
+                <h1
+                  class="text-center font-['Baskervville'] text-[#D4C8A9] font-bold text-5xl"
+                >
+                  Lucinta Luna
+                </h1>
+              </div>
+
+              <p
+                class="font-['Futura Book font'] text-[#D4C8A9] mx-auto text-center px-8 mt-10"
+              >
+                datanglah di acara pernikahan kami dan selamat menikmati
+                hidangan dari kamis
+              </p>
+
+              <p
+                class="font-['Futura Book font'] font-bold text-[#D4C8A9] mx-auto text-center px-8 mt-10"
+              >
+                location
+                <span class="text-sm"> jln. mastrip no. 43</span>
+              </p>
+            </div>
+
+            <div class="mt-5">
+              <button class="bg-[#d7c1a0] px-6 py-2 rounded-lg">
+                open invitation
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- right section -->
+      <div class="col-span-12 lg:col-span-4">
+        <div class="w-full">
+          <!-- first section -->
+          <div
+            class="h-[100vh] w-full bg-[#282A39] relative pt-16 overflow-hidden"
+          >
+            <div class="absolute w-[35rem] h-[35rem] -top-48 -left-36">
+              <img
+                src="/asset/frame/flower-white.png"
+                class="w-full h-full object-cover opacity-30"
+                alt=""
+              />
+            </div>
+            <div class="absolute w-[35rem] h-[35rem] -bottom-48 -right-48">
+              <img
+                src="/asset/frame/flower-white.png"
+                class="w-full h-full object-cover opacity-30"
+                alt=""
+              />
+            </div>
+            <div
+              class="absolute w-[20rem] md:w-[25rem] w-[20rem] md:h-[25rem] z-10 -top-32 -right-28"
+            >
+              <img
+                src="/asset/frame/flower-white.png"
+                class="w-full h-full object-cover wave-image"
+                alt=""
+              />
+            </div>
+            <div
+              class="absolute w-[20rem] md:w-[25rem] w-[20rem] md:h-[25rem] z-10 -bottom-32 -left-24"
+            >
+              <img
+                src="/asset/frame/flower-white.png"
+                class="w-full h-full object-cover wave-image"
+                alt=""
+              />
+            </div>
+            <div
+              class="xl:w-[65%] md:w-[35%] w-[80%] h-[75%] bg-[#282A39] border-2 relative border-[#D4C8A9] mx-auto rounded-t-full mt-16"
+            >
+              <img
+                src="/asset/frame/little-flower.png"
+                alt=""
+                width="130"
+                class="animate-pulse duration-1000"
+              />
+
+              <div class="w-60 mx-auto relative">
+                <div class="absolute -left-5 bottom-10 -rotate-12 wave-image">
+                  <img
+                    src="/asset/frame/opening/bunga-putih.png"
+                    class="w-20"
+                    alt=""
+                  />
+                </div>
+                <div class="absolute -right-5 bottom-10 rotate-12 wave-image">
+                  <img
+                    src="/asset/frame/opening/bunga-putih.png"
+                    class="w-20 -scale-100"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="relative mx-auto bg-[#282A39]"
+                  style="
+                    -webkit-mask-image: url('/asset/frame/bingkai-mask.png');
+                    mask-image: url('/asset/frame/bingkai-mask.png');
+                    -webkit-mask-repeat: no-repeat;
+                    mask-repeat: no-repeat;
+                    -webkit-mask-size: cover;
+                    mask-size: 100% 100%;
+                  "
+                >
+                  <img
+                    src="/asset/frame/bingkai.png"
+                    alt="Frame"
+                    class="absolute w-full h-full object-fill"
+                  />
+
+                  <img
+                    src="/asset/couple.jpeg"
+                    class="w-full h-full scale-75 object-cover"
+                    alt=""
+                    style="
+                      -webkit-mask-image: url('/asset/frame/bingkai-mask.png');
+                      mask-image: url('/asset/frame/bingkai-mask.png');
+                      -webkit-mask-repeat: no-repeat;
+                      mask-repeat: no-repeat;
+                      -webkit-mask-size: cover;
+                      mask-size: 100% 100%;
+                    "
+                  />
+                </div>
+              </div>
+              <h1
+                class="font-['Baskervville'] text-[#D4C8A9] mx-auto text-center px-8 mt-10 text-xl"
+              >
+                Cahya Aditia
+                <br />
+                <span class="text-sm"> & </span>
+                <br />
+                <span>Lucinta Luna</span>
+              </h1>
+            </div>
+          </div>
+
+          <!-- pengantin -->
+          <div class="w-full bg-[#282A39] py-10 overflow-x-hidden">
+            <h1
+              class="font-['Rondal-SemiBold'] text-[#D4C8A9] font-bold text-2xl text-center"
+            >
+              Mohon Doa & Restu
+            </h1>
+
+            <div class="mt-10">
+              <img
+                src="/asset/decorator.svg"
+                class="mx-auto"
+                alt=""
+                srcset=""
+              />
+
+              <div class="mt-10 text-[#D4C8A9]">
+                <div class="mb-10" data-aos="fade-right">
+                  <div
+                    class="w-[23rem] h-[23rem] rounded-md mx-auto p-16 pt-[86px] pb-[48px] bg-no-repeat bg-center bg-contain relative"
+                  >
+                    <img
+                      src="/asset/frame/frame-photo.png"
+                      class="absolute top-0 bottom-0 left-0 right-0"
+                      alt=""
+                    />
+                    <div class="bg-slate-500 w-full h-full mx-auto"></div>
+                  </div>
+                  <h1
+                    class="font-['Tangerine'] text-center mt-10 text-5xl font-bold"
+                  >
+                    Cahya Aditia
+                  </h1>
+                  <p class="text-center font-['Rondal-Regural']">
+                    Putra Bapak Handoko
+                  </p>
+                </div>
+                <div class="my-5">
+                  <h1 class="font-['Maven+Pro'] text-6xl text-center">&</h1>
+                </div>
+                <div data-aos="fade-left">
+                  <div
+                    class="w-[23rem] h-[23rem] rounded-md mx-auto p-16 pt-[86px] pb-[48px] bg-no-repeat bg-center bg-contain relative"
+                  >
+                    <img
+                      src="/asset/frame/frame-photo.png"
+                      class="absolute top-0 bottom-0 left-0 right-0"
+                      alt=""
+                    />
+                    <div class="bg-slate-500 w-full h-full mx-auto"></div>
+                  </div>
+                  <h1
+                    class="font-['Tangerine'] text-center mt-10 text-5xl font-bold"
+                  >
+                    Lucinta Luna
+                  </h1>
+                  <p class="text-center font-['Rondal-Regural']">
+                    Putra Bapak Handoko
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- our love story -->
+          <div class="w-full py-20 bg-[#282A39]">
+            <!-- title -->
+            <div class="w-full py-10">
+              <h1
+                class="font-['Tangerine'] text-center font-bold text-6xl text-[#f0ddc0]"
+                data-aos="fade-up"
+              >
+                Our Love Story
+              </h1>
+            </div>
+            <div class="px-10 rounded-lg w-full">
+              <div class="flex flex-col items-center w-full overflow-hidden">
+                <div class="w-full">
+                  <div
+                    class="h-[600px] rounded-md w-full overflow-x-hidden relative"
+                  >
+                    <img
+                      src="/asset/couple.jpeg"
+                      class="w-full h-full object-cover"
+                      alt=""
+                    />
+                    <div
+                      class="absolute bg-white h-[30%] bottom-0 w-full bg-opacity-45 p-5"
+                    >
+                      <h1 class="font-bold judul-story">Awal Kenal</h1>
+                      <p class="mt-2 text-story">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Rem dolores aspernatur praesentium dignissimos
+                        explicabo pariatur odit accusamus! Omnis commodi totam
+                        dolor praesentium quae dicta.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full block slide-nav py-10 px-2">
+                  <div
+                    class="h-32 mr-2 rounded-xl shadow-md overflow-hidden border-2 cards-story"
+                  >
+                    <img
+                      src="/asset/couple.jpeg"
+                      class="h-full object-cover w-full"
+                      alt=""
+                    />
+                    <h1>Cerita Awal</h1>
+                    <p class="hidden">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae, quia qui dolores molestiae accusamus aliquid
+                      sapiente perspiciatis! Fugit impedit eligendi quasi porro
+                      animi sed ullam quaerat voluptates laborum expedita. Vel.
+                    </p>
+                  </div>
+                  <div
+                    class="h-32 mr-2 rounded-xl shadow-md overflow-hidden border-2 cards-story"
+                  >
+                    <img
+                      src="/asset/couple.jpeg"
+                      class="h-full object-cover w-full"
+                      alt=""
+                    />
+                    <h1>Cerita Kedua</h1>
+                    <p class="hidden">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae, quia qui dolores molestiae accusamus aliquid
+                      sapiente perspiciatis! Fugit impedit eligendi quasi porro
+                      animi sed ullam quaerat voluptates laborum expedita. Vel.
+                    </p>
+                  </div>
+                  <div
+                    class="h-32 mr-2 rounded-xl shadow-md overflow-hidden border-2 cards-story"
+                  >
+                    <img
+                      src="/asset/couple.jpeg"
+                      class="h-full object-cover w-full"
+                      alt=""
+                    />
+                    <h1>Cerita Awal</h1>
+                    <p class="hidden">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae, quia qui dolores molestiae accusamus aliquid
+                      sapiente perspiciatis! Fugit impedit eligendi quasi porro
+                      animi sed ullam quaerat voluptates laborum expedita. Vel.
+                    </p>
+                  </div>
+                  <div
+                    class="h-32 mr-2 rounded-xl shadow-md overflow-hidden border-2 cards-story"
+                  >
+                    <img
+                      src="/asset/couple.jpeg"
+                      class="h-full object-cover w-full"
+                      alt=""
+                    />
+                    <h1>Cerita Awal</h1>
+                    <p class="hidden">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae, quia qui dolores molestiae accusamus aliquid
+                      sapiente perspiciatis! Fugit impedit eligendi quasi porro
+                      animi sed ullam quaerat voluptates laborum expedita. Vel.
+                    </p>
+                  </div>
+                  <div
+                    class="h-32 mr-2 rounded-xl shadow-md overflow-hidden border-2 cards-story"
+                  >
+                    <img
+                      src="/asset/couple.jpeg"
+                      class="h-full object-cover w-full"
+                      alt=""
+                    />
+                    <h1>Cerita Awal</h1>
+                    <p class="hidden">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae, quia qui dolores molestiae accusamus aliquid
+                      sapiente perspiciatis! Fugit impedit eligendi quasi porro
+                      animi sed ullam quaerat voluptates laborum expedita. Vel.
+                    </p>
+                  </div>
+                  <div
+                    class="h-32 mr-2 rounded-xl shadow-md overflow-hidden border-2 cards-story"
+                  >
+                    <img
+                      src="/asset/couple.jpeg"
+                      class="h-full object-cover w-full"
+                      alt=""
+                    />
+                    <h1>Cerita Awal</h1>
+                    <p class="hidden">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae, quia qui dolores molestiae accusamus aliquid
+                      sapiente perspiciatis! Fugit impedit eligendi quasi porro
+                      animi sed ullam quaerat voluptates laborum expedita. Vel.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- save the date -->
+          <div
+            class="py-10 bg-[#423740] bg-[url('/asset/wallpaper.png')] bg-center bg-fixed relative"
+          >
+            <div
+              class="absolute bg-black w-full h-full top-0 bg-opacity-45"
+            ></div>
+            <div class="relative">
+              <h1
+                class="font-['Tangerine'] text-center font-bold text-6xl text-[#f0ddc0]"
+                data-aos="fade-up"
+              >
+                Save The Date
+              </h1>
+              <h2
+                class="font-['Rondal-Regural'] text-lg text-[#f0ddc0] font-semibold text-center"
+                data-aos="fade-up"
+              >
+                Akad nikah & resepsi
+              </h2>
+
+              <div
+                class="mt-10 h-24 md:h-32 font-['Rochester'] grid grid-cols-4 px-2 gap-3"
+              >
+                <div
+                  class="rounded bg-[#D4C8A9] text-[#282A39] text-center flex justify-center items-center text-4xl font-bold"
+                >
+                  1 hari
+                </div>
+                <div
+                  class="rounded bg-[#D4C8A9] text-[#282A39] text-center flex justify-center items-center text-4xl font-bold"
+                >
+                  1 jam
+                </div>
+                <div
+                  class="rounded bg-[#D4C8A9] text-[#282A39] text-center flex justify-center items-center text-4xl font-bold"
+                >
+                  1 menit
+                </div>
+                <div
+                  class="rounded bg-[#D4C8A9] text-[#282A39] text-center flex justify-center items-center text-4xl font-bold"
+                >
+                  1 detik
+                </div>
+              </div>
+
+              <div class="mt-10 mx-auto">
+                <a
+                  href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Aurora+%26+Matthew+Wedding&dates=20241005T110000/20241005T170000&location=JW+Marriott+Jakarta+%7C+JW+Marriott+Jkt,+Kuningan,+Kuningan+Tim.,+Kecamatan+Setiabudi,+Kota+Jakarta+Selatan,+Daerah+Khusus+Ibukota+Jakarta+12950,+Indonesia+%7C+Kota+Jakarta+Selatan&details=Hi,+You%27re+invited+to+our+wedding+ceremony+%7C+Aurora+%26+Matthew+Wedding+%7C+Saturday,+October+05th+2024"
+                  target="_blank"
+                  class="bg-[#f0ddc0] px-6 py-2 rounded-full font-bold text-[#282A39] mx-auto block max-w-fit"
+                >
+                  Add to calendar
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- <div
+            class="py-10 bg-[#423740] bg-[url('/asset/couple.jpeg')] bg-center bg-fixed relative"
+          >
+            <div
+              class="absolute bg-black w-full h-full top-0 bg-opacity-45"
+            ></div>
+            <div class="relative">
+              <h1
+                class="font-['Tangerine'] text-center font-bold text-6xl text-[#f0ddc0]"
+                data-aos="fade-up"
+              >
+                Save The Date
+              </h1>
+              <h2
+                class="font-['Rondal-Regural'] text-lg text-[#f0ddc0] font-semibold text-center"
+                data-aos="fade-up"
+              >
+                Akad nikah & resepsi
+              </h2>
+
+              <div
+                class="mt-10 h-24 md:h-32 font-['Rochester'] grid grid-cols-4 px-2 gap-3"
+              >
+                <div
+                  data-aos="fade-down"
+                  class="text-center bg-[url('/asset/img/texture/frame-date.png')] bg-cover bg-no-repeat bg-center bg-[#423740] text-[#d7c1a0] text-xl md:text-3xl font-semibold shadow-md rounded-md flex justify-center items-center"
+                >
+                  10
+                  <br />
+                  Hari
+                </div>
+                <div
+                  data-aos="fade-down"
+                  class="text-center bg-[url('/asset/img/texture/frame-date.png')] bg-cover bg-no-repeat bg-center bg-[#423740] text-[#d7c1a0] text-xl md:text-3xl font-semibold shadow-md rounded-md flex justify-center items-center"
+                >
+                  10
+                  <br />
+                  Jam
+                </div>
+                <div
+                  data-aos="fade-down"
+                  class="text-center bg-[url('/asset/img/texture/frame-date.png')] bg-cover bg-no-repeat bg-center bg-[#423740] text-[#d7c1a0] text-xl md:text-3xl font-semibold shadow-md rounded-md flex justify-center items-center"
+                >
+                  10
+                  <br />
+                  Menit
+                </div>
+                <div
+                  data-aos="fade-down"
+                  class="text-center bg-[url('/asset/img/texture/frame-date.png')] bg-cover bg-no-repeat bg-center bg-[#423740] text-[#d7c1a0] text-xl md:text-3xl font-semibold shadow-md rounded-md flex justify-center items-center"
+                >
+                  10
+                  <br />
+                  Detik
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- gallery -->
+          <div class="w-full py-10">
+            <div class="text-center text-[#423740]">
+              <h1 class="font-['Rochester'] text-3xl font-semibold">
+                Looks Our Happines
+              </h1>
+              <h2 class="font-['Rochester'] text-xl font-semibold mt-2">
+                Galery Kami
+              </h2>
+            </div>
+
+            <div class="grid grid-cols-12 grid-rows-4 gap-3 mt-10 px-5">
+              <div
+                data-aos="fade-up"
+                class="col-span-12 h-32 md:h-64 bg-slate-500 overflow-hidden group"
+              >
+                <img
+                  src="/asset/couple.jpeg"
+                  class="gallery-item w-full h-full object-cover group-hover:scale-105 duration-500"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+
+              <div
+                data-aos="fade-up"
+                class="col-span-6 row-span-2 bg-slate-500 overflow-hidden group"
+              >
+                <img
+                  src="/asset/couple.jpeg"
+                  class="gallery-item w-full h-full object-cover group-hover:scale-105 duration-500"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+
+              <div
+                data-aos="fade-up"
+                class="col-span-6 bg-slate-500 overflow-hidden group"
+              >
+                <img
+                  src="/asset/couple.jpeg"
+                  class="gallery-item w-full h-full object-cover group-hover:scale-105 duration-500"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+
+              <div
+                data-aos="fade-up"
+                class="col-span-6 bg-slate-500 overflow-hidden group"
+              >
+                <img
+                  src="/asset/couple.jpeg"
+                  class="gallery-item w-full h-full object-cover group-hover:scale-105 duration-500"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+
+              <div
+                data-aos="fade-up"
+                class="col-span-4 bg-slate-500 overflow-hidden group"
+              >
+                <img
+                  src="/asset/couple.jpeg"
+                  class="gallery-item w-full h-full object-cover group-hover:scale-105 duration-500"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+
+              <div
+                data-aos="fade-up"
+                class="col-span-4 bg-slate-500 overflow-hidden group"
+              >
+                <img
+                  src="/asset/couple.jpeg"
+                  class="gallery-item w-full h-full object-cover group-hover:scale-105 duration-500"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+
+              <div
+                data-aos="fade-up"
+                class="col-span-4 bg-slate-500 overflow-hidden group"
+              >
+                <img
+                  src="/asset/couple.jpeg"
+                  class="gallery-item w-full h-full object-cover group-hover:scale-105 duration-500"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- will you attended -->
+          <div class="bg-[#282A39] text-[#D4C8A9] relative py-16">
+            <div class="w-full">
+              <h1 class="font-['Rochester'] text-3xl text-center">
+                Will You Attend
+              </h1>
+              <p
+                class="text-center font-['Rochester'] font-semibold mt-2 text-xl"
+              >
+                RSVP
+              </p>
+            </div>
+
+            <div class="bg-[#464a64] mx-20 mt-10 p-5 rounded">
+              <div class="w-14 h-14 mx-auto text-[#D4C8A9]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  class="activity-icon ic-rings"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="#D4C8A9"
+                    d="M322.656 180c-4 0-7.92.24-11.76.48a171.913 171.913 0 0115.44 23.68 127.941 127.941 0 01124.431 129.736A127.947 127.947 0 01322.656 460a128.135 128.135 0 01-128-128 128.912 128.912 0 0173.2-115.68 111.626 111.626 0 00-17.28-18 151.874 151.874 0 00-63.68 202.08 152.854 152.854 0 00135.76 83.6 151.998 151.998 0 00152-152 151.997 151.997 0 00-152-152z"
+                  ></path>
+                  <path
+                    fill="#D4C8A9"
+                    d="M326.336 204.16a171.913 171.913 0 00-15.44-23.68c-8.967-.053-33.585 3.44-60.32 17.84a111.626 111.626 0 0117.28 18c23.8-11.406 27.8-12.16 58.48-12.16z"
+                  ></path>
+                  <path
+                    fill="#D4C8A9"
+                    fillRule="evenodd"
+                    d="M88.195 193.539A128.17 128.17 0 0050.655 284a128.077 128.077 0 00124.32 127.84c4.488 8.304 15.44 23.68 15.44 23.68s-7.76.48-11.76.48A152.001 152.001 0 0162.701 186.13a152.004 152.004 0 0198.826-53.122c7.129-.825 26.629-.867 34.264-.008a151.296 151.296 0 0193.504 46.92 148.835 148.835 0 0125.12 35.68 151.868 151.868 0 01-63.68 202.08 111.67 111.67 0 01-17.28-18 128.906 128.906 0 0073.2-115.68 128.135 128.135 0 00-128-128 128.165 128.165 0 00-90.46 37.539z"
+                    clipRule="evenodd"
+                  ></path>
+                  <path
+                    fill="#D4C8A9"
+                    d="M250.735 417.68a111.67 111.67 0 01-17.28-18c-8.72 4.833-32.624 14.032-58.48 12.16 4.488 8.304 15.44 23.68 15.44 23.68 33.241-3.02 37.741-5.693 60.32-17.84z"
+                  ></path>
+                  <path
+                    fill="#D4C8A9"
+                    fillRule="evenodd"
+                    d="M333.641 182.592l18.452 1.854 15.923 4.833.485-41.858 25.34 7.958-23.535 34.619 15.828 5.139 16.199 9.028 53.969-31.936a7.953 7.953 0 003.943-7.482l-3.28-42.956a7.999 7.999 0 00-5.588-7.038l-106.854-33.56a7.998 7.998 0 00-8.608 2.58l-27.25 33.368a7.943 7.943 0 00-1.043 8.393l26.019 57.058zm52.493 12.545l23.582-34.772 23.05 7.24-46.632 27.532zm-34.041-10.691l-22.517-49.25 23.049 7.239-.532 42.011zm89.3-56.058l-4.885-1.534-16.35 20.02 23.203 7.287-1.968-25.773zm-37.721 13.309l16.35-20.021L366.29 104.8l1.968 25.774 35.414 11.123zm-53.868-42.075l-4.885-1.534-16.35 20.021 23.203 7.287-1.968-25.773z"
+                    clipRule="evenodd"
+                  ></path>
+                  <path
+                    fill="#D4C8A9"
+                    d="M418.763 71.802l6.002-24.892c1.294-5.368-2.01-10.772-7.376-12.064-5.37-1.294-10.771 2.009-12.065 7.377l-6.002 24.89c-1.084 4.497 1.056 9.016 4.934 11.127.752.409 1.57.728 2.442.939 5.37 1.294 10.771-2.008 12.065-7.377zM369.406 67.311l-7.315-28.254c-1.383-5.346-6.84-8.559-12.186-7.174-5.346 1.384-8.558 6.84-7.174 12.186l7.315 28.254a9.974 9.974 0 004.903 6.278 9.967 9.967 0 007.284.897c5.345-1.384 8.556-6.841 7.173-12.187zM477.463 66.94c-4.17-3.618-10.487-3.173-14.106.998L444.67 89.467c-3.621 4.17-3.173 10.486.997 14.106a9.99 9.99 0 001.783 1.237c4.034 2.196 9.189 1.376 12.323-2.234l18.687-21.53c3.621-4.17 3.173-10.486-.997-14.106z"
+                  ></path>
+                </svg>
+              </div>
+              <h1 class="text-center mt-5 text-5xl font-['Rochester']">
+                Akad Nikah
+              </h1>
+
+              <h2 class="text-center mt-5 text-lg font-['Rondal-Regular']">
+                20:00 - 24:00
+              </h2>
+
+              <h2 class="text-center mt-1 text-3xl font-['Rondal-Regular']">
+                30 Juli 2024
+              </h2>
+
+              <h2 class="text-center mt-5 text-sm font-['Rondal-Regular']">
+                JW Marriott Jkt, Kuningan, Kuningan Tim., Kecamatan Setiabudi,
+                Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12950,
+                Indonesia
+              </h2>
+            </div>
+
+            <div class="p-5 md:p-20">
+              <div class="bg-white/30 backdrop-blur-md p-5">
+                <form action="" class="space-y-5">
+                  <div class="form-group flex flex-col gap-2">
+                    <label htmlFor="">Nama</label>
+                    <input
+                      type="text"
+                      placeholder="Nama"
+                      class="px-4 py-2 rounded-md outline-none focus:ring-1 focus:ring-purple-500"
+                    />
+                  </div>
+                  <div class="form-group flex flex-col gap-2">
+                    <label htmlFor="">Bersedia Hadir ?</label>
+                    <input
+                      type="text"
+                      placeholder="Nama"
+                      class="px-4 py-2 rounded-md outline-none focus:ring-1 focus:ring-purple-500"
+                    />
+                  </div>
+                  <div class="form-group flex flex-col gap-2">
+                    <label htmlFor="">Jumlah Orang</label>
+                    <input
+                      type="text"
+                      placeholder="Nama"
+                      class="px-4 py-2 rounded-md outline-none focus:ring-1 focus:ring-purple-500"
+                    />
+                  </div>
+                  <div class="form-group flex flex-col gap-2">
+                    <label htmlFor="">Kirim Ucapan</label>
+                    <textarea
+                      class="px-4 py-2 rounded-md outline-none focus:ring-1 focus:ring-purple-500"
+                    ></textarea>
+                  </div>
+                  <div class="form-btn w-full">
+                    <button
+                      class="bg-green-700 w-full px-5 py-2 text-white rounded-md hover:bg-green-600 duration-500"
+                    >
+                      Kirim
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- pesan ucapan -->
+          <div
+            class="w-full pt-5 pb-16 bg-[#282A39] border-t bg-[url('/asset/img/bg-pengantin.png')]"
+          >
+            <div class="py-14 text-[#f0ddc0]">
+              <h1 class="font-['Rochester'] text-3xl text-center">
+                Ucapan dari tamu
+              </h1>
+              <p class="font-['Rochester'] text-xl text-center">
+                terima kasih sudah datang
+              </p>
+            </div>
+            <div class="slider w-full max-w-2xl mx-auto overflow-hidden">
+              <div class="slider-inner">
+                <div class="slide">
+                  <div class="card">
+                    <div>
+                      <h3 class="text-lg font-bold">John Doe</h3>
+                      <p class="text-sm text-[#f0ddc0] mt-2">
+                        This is a comment content example. It's meant to be
+                        descriptive and informative.
+                      </p>
+                    </div>
+                    <div class="text-right text-xs text-gray-100 mt-2">
+                      <p>10:30 AM</p>
+                      <p>24 July 2024</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="card">
+                    <div>
+                      <h3 class="text-lg font-bold">John Doe</h3>
+                      <p class="text-sm text-[#f0ddc0] mt-2">
+                        This is a comment content example. It's meant to be
+                        descriptive and informative.
+                      </p>
+                    </div>
+                    <div class="text-right text-xs text-gray-100 mt-2">
+                      <p>10:30 AM</p>
+                      <p>24 July 2024</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="card">
+                    <div>
+                      <h3 class="text-lg font-bold">John Doe</h3>
+                      <p class="text-sm text-[#f0ddc0] mt-2">
+                        This is a comment content example. It's meant to be
+                        descriptive and informative.
+                      </p>
+                    </div>
+                    <div class="text-right text-xs text-gray-100 mt-2">
+                      <p>10:30 AM</p>
+                      <p>24 July 2024</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="card">
+                    <div>
+                      <h3 class="text-lg font-bold">John Doe</h3>
+                      <p class="text-sm text-[#f0ddc0] mt-2">
+                        This is a comment content example. It's meant to be
+                        descriptive and informative.
+                      </p>
+                    </div>
+                    <div class="text-right text-xs text-gray-100 mt-2">
+                      <p>10:30 AM</p>
+                      <p>24 July 2024</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="card">
+                    <div>
+                      <h3 class="text-lg font-bold">John Doe</h3>
+                      <p class="text-sm text-[#f0ddc0] mt-2">
+                        This is a comment content example. It's meant to be
+                        descriptive and informative.
+                      </p>
+                    </div>
+                    <div class="text-right text-xs text-gray-100 mt-2">
+                      <p>10:30 AM</p>
+                      <p>24 July 2024</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="prev">&lt;</button>
+              <button class="next">&gt;</button>
+            </div>
+          </div>
+
+          <!-- wedding gift -->
+          <div class="w-full overflow-hidden text-[#f0ddc0] bg-[#282A39]">
+            <div class="p-10">
+              <h1 class="font-['Rochester'] text-5xl text-center">
+                Wedding Gift
+              </h1>
+              <p class="mt-5 text-center text-sm font-['Rondal-Regural']">
+                Doa restu anda merupakan karunia yang sangat berarti bagi kami,
+                dan jika memberi adalah ungkapan tanda kasih anda, anda dapat
+                memberi kado secara cashless.
+              </p>
+            </div>
+
+            <div class="mt-10 p-5 space-y-10">
+              <div
+                class="w-full max-w-96 mx-auto py-10 px-5 border text-center rounded-md bg-white/30 backdrop-blur-md"
+                data-aos="fade-right"
+              >
+                <h1
+                  class="text-5xl font-['Rochester'] font-semibold text-center"
+                >
+                  Rekening
+                </h1>
+                <h2 class="mt-10 font-['Rondal-Regural']">Bank BCA</h2>
+                <h3 class="mt-3 font-['Rondal-Regural']">983749827493287</h3>
+                <h3 class="font-['Rondal-Regural']">Ahmad Maududie</h3>
+              </div>
+
+              <div
+                class="w-full max-w-96 mx-auto py-10 px-5 border text-center rounded-md bg-white/30 backdrop-blur-md"
+                data-aos="fade-left"
+              >
+                <h1
+                  class="text-5xl font-['Rochester'] font-semibold text-center"
+                >
+                  Rekening
+                </h1>
+                <h2 class="mt-10 font-['Rondal-Regural']">Bank BCA</h2>
+                <h3 class="mt-3 font-['Rondal-Regural']">983749827493287</h3>
+                <h3 class="font-['Rondal-Regural']">Ahmad Maududie</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end main section -->
+
+      <!-- audio control -->
+      <!-- Audio element -->
+      <audio id="myAudio" src="/asset/sound/sound.mp3" class="hidden"></audio>
+
+      <!-- Button to play/pause audio -->
+      <div class="fixed bottom-10 left-10 z-10">
+        <button
+          id="audioButton"
+          class="w-16 h-16 bg-[#282A39] backdrop-blur rounded-full border"
+          onclick="toggleAudio()"
+        >
+          <svg
+            id="playIcon"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="w-6 h-6 mx-auto text-white"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M5.25 4.75l13.5 7.5-13.5 7.5V4.75z"
+            />
+          </svg>
+          <svg
+            id="pauseIcon"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="w-6 h-6 mx-auto text-white hidden"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M10.25 6.75h1.5v10.5h-1.5V6.75zm4.5 0h1.5v10.5h-1.5V6.75z"
+            />
+          </svg>
+        </button>
+      </div>
+    </main>
+
+    <!-- preview modal -->
+    <div id="imageModal" class="preview">
+      <img src="" alt="Preview" id="modalImage" />
+    </div>
+    <script src="/asset/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="/asset/js/preview-image.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
