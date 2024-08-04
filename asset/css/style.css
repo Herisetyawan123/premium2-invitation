@@ -5,21 +5,21 @@
 
 @font-face {
   font-family: "Rondal-Regular";
-  src: url("./fonts/Rondal-Regular.otf") format("opentype");
+  src: url("./asset/fonts/Rondal-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Rondal-Bold";
-  src: url("./fonts/Rondal-Bold.otf") format("opentype");
+  src: url("./asset/fonts/Rondal-Bold.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Rondal-SemiBold";
-  src: url("./fonts/Rondal-SemiBold.otf") format("opentype");
+  src: url("./asset/fonts/Rondal-SemiBold.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -102,4 +102,69 @@
 .preview img {
   max-width: 90%;
   max-height: 90%;
+}
+
+@font-face {
+  font-family: "Rondal-Regular";
+  src: url("./asset/fonts/Rondal-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura Book font";
+  src: url("./asset/fonts/futura/Futura Book font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rondal-Bold";
+  src: url("./asset/fonts/Rondal-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rondal-SemiBold";
+  src: url("./asset/fonts/Rondal-SemiBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+.overlay {
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+.overlay.animate-slide-up {
+  animation-name: slide-up;
+}
+
+.wave-image {
+  animation: wave 2s infinite ease-in-out;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }

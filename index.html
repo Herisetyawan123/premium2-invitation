@@ -18,49 +18,102 @@
     </style>
   </head>
   <body>
-    <main class="w-full grid grid-cols-12">
+    <main class="w-full grid grid-cols-12 h-[100vh] overflow-y-hidden">
       <!-- cover invitation -->
       <div
-        class="w-[100vw] h-[100vh] px-10 fixed bg-[#423740] bg-[url('/asset/couple.jpeg')] bg-no-repeat bg-center bg-cover flex justify-center items-center z-50 hidden"
+        class="w-[100vw] h-[100vh] px-10 fixed bg-[#423740] bg-[url('/asset/bg.jpeg')] bg-no-repeat bg-center bg-cover flex flex-col justify-center items-center z-50"
+        style="
+          background-image: linear-gradient(
+              rgba(40, 42, 57, 0.7),
+              rgba(40, 42, 57, 0.7)
+            ),
+            url('/asset/bg.jpeg');
+        "
         id="cover-invitation"
       >
-        <div class="rounded-md relative">
-          <div
-            class="absolute w-full h-full flex flex-col justify-center items-center"
-          >
-            <h3
-              class="font-semibold text-xl md:text-3xl font-['Playfair+Display'] text-[#d7c1a0] mb-2 md:mb-10"
-              data-aos="fade-up"
+        <div class="absolute -right-32 -top-32 w-96">
+          <img
+            src="/asset/frame/flower-white.png"
+            class="-scale-y-100 -scale-x-100"
+            alt=""
+          />
+        </div>
+        <div class="absolute -left-32 -top-32 w-96">
+          <img
+            src="/asset/frame/flower-white.png"
+            class="-scale-y-100"
+            alt=""
+          />
+        </div>
+        <div class="absolute -right-32 -bottom-32 w-96">
+          <img src="/asset/frame/flower-white.png" alt="" />
+        </div>
+        <div class="absolute -left-32 -bottom-32 w-96">
+          <img
+            src="/asset/frame/flower-white.png"
+            class="-scale-x-100"
+            alt=""
+          />
+        </div>
+        <div
+          class="box-couple w-[90%] md:w-[50%] xl:w-[30%] mt-5 relative flex justify-center items-center flex-col py-16 rounded-t-full bg-[#282A39] border-8 border-[#D4C8A9] mx-auto mb-10"
+          style="
+            box-shadow: inset 10px 10px 18px rgba(0, 0, 0, 0.5),
+              inset 0 -4px 6px rgba(0, 0, 0, 0.1);
+          "
+        >
+          <div class="absolute top-0 left-0">
+            <img src="/asset/frame/little-flower.png" class="w-32" alt="" />
+          </div>
+          <div class="text-header text-center">
+            <p
+              class="font-['Futura Book font'] text-xs xl:text-sm text-[#D4C8A9] mx-auto text-center px-8 mt-10"
             >
-              Wedding Invitation
-            </h3>
-            <div
-              class="cover-text text-center text-2xl md:text-4xl mt-2 md:mt-10 font-['Tangerine'] text-[#d7c1a0] font-bold"
-            >
-              <h1 class="" data-aos="fade-in">Anhar Muchlis</h1>
-              <p data-aos="fade-in">&</p>
-              <h1 class="" data-aos="fade-in">Deana</h1>
+              bersama keluarga besar, anda diundang untuk datang ke acara
+              pernikahan
+            </p>
+
+            <div class="my-3 mt-8 md:mt-20">
+              <h1
+                class="text-center font-['Baskervville'] text-[#D4C8A9] font-bold text-2xl md:text-5xl"
+              >
+                Heri Setyawan
+              </h1>
+              <h1
+                class="text-center font-['Baskervville'] text-[#D4C8A9] font-bold text-lg md:text-4xl my-2"
+              >
+                &
+              </h1>
+              <h1
+                class="text-center font-['Baskervville'] text-[#D4C8A9] font-bold text-2xl md:text-5xl"
+              >
+                Siapa yang mau
+              </h1>
             </div>
 
             <p
-              class="font-['Playfair+Display'] text-sm md:text-lg mb-5 md:mb-10 md:mt-2 text-[#d7c1a0]"
-              data-aos="fade-up"
+              class="font-['Futura Book font'] text-[#D4C8A9] mx-auto text-xs md:text-sm text-center px-8 mt-10"
             >
-              10 January 2024
+              datanglah di acara pernikahan kami dan selamat menikmati hidangan
+              dari kamis
             </p>
-            <button
-              id="open-invitation"
-              data-aos="fade-up"
-              class="px-8 py-2 text-sm rounded-full hover:border-[#423740] border border-[#d7c1a0] hover:text-[#423740] hover:bg-[#d7c1a0] font-semibold duration-500 hover:scale-105 bg-[#423740] text-[#d7c1a0] font-['Playfair Display']"
+
+            <p
+              class="font-['Futura Book font'] font-bold text-[#D4C8A9] mx-auto text-center px-8 mt-10"
             >
-              Open Invitation
+              location
+              <span class="text-sm"> jln. mastrip no. 43</span>
+            </p>
+          </div>
+
+          <div class="mt-5">
+            <button
+              class="bg-[#d7c1a0] px-6 py-2 rounded-lg"
+              id="open-invitation"
+            >
+              open invitation
             </button>
           </div>
-          <img
-            src="/asset/img/bg-cover.png"
-            class="h-[80%] object-contain rounded-md"
-            alt=""
-          />
         </div>
       </div>
       <!-- end cover invitation -->
@@ -203,7 +256,7 @@
               />
             </div>
             <div
-              class="xl:w-[65%] md:w-[35%] w-[80%] h-[75%] bg-[#282A39] border-2 relative border-[#D4C8A9] mx-auto rounded-t-full mt-16"
+              class="xl:w-[65%] md:w-[35%] w-[90%] md:w-[80%] h-[75%] bg-[#282A39] border-2 relative border-[#D4C8A9] mx-auto rounded-t-full md:mt-16"
             >
               <img
                 src="/asset/frame/little-flower.png"
@@ -260,7 +313,7 @@
                 </div>
               </div>
               <h1
-                class="font-['Baskervville'] text-[#D4C8A9] mx-auto text-center px-8 mt-10 text-xl"
+                class="font-['Baskervville'] text-[#D4C8A9] mx-auto text-center px-8 md:mt-10 text-xl"
               >
                 Cahya Aditia
                 <br />
@@ -358,14 +411,17 @@
                       alt=""
                     />
                     <div
-                      class="absolute bg-white h-[30%] bottom-0 w-full bg-opacity-45 p-5"
+                      class="absolute bg-white bottom-0 w-full bg-opacity-45 p-5"
                     >
                       <h1 class="font-bold judul-story">Awal Kenal</h1>
                       <p class="mt-2 text-story">
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Rem dolores aspernatur praesentium dignissimos
                         explicabo pariatur odit accusamus! Omnis commodi totam
-                        dolor praesentium quae dicta.
+                        dolor praesentium quae dicta. elit. Rem dolores
+                        aspernatur praesentium dignissimos explicabo pariatur
+                        odit accusamus! Omnis commodi totam dolor praesentium
+                        quae dicta.
                       </p>
                     </div>
                   </div>
